@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/ashwinks/env-configs/issues"
   },
-  "homepage": "https://github.com/ashwinks/env-configs"
+  "homepage": "https://github.com/ashwinks/env-configs",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }
