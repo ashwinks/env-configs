@@ -23,6 +23,8 @@ So for instance, if you need different database settings for your local environm
     console.log(config.database.host);
 `
 
+If you forget to create a config file, node will throw a `module not found` fatal error - easy peasy.
+
 How it works
 ------------
 I've seen many configuration modules do a bunch of fancy file loading, parsing, merging etc. I believe it's all unnecssary because we an leverage nodes own module architecture to solve this problem elegantly. 
