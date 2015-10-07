@@ -4,7 +4,7 @@ module.exports = {
         port: 80
     },
 
-    databse: {
+    database: {
         host: '',
         username: '',
         password: '',

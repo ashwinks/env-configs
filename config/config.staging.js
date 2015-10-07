@@ -4,7 +4,7 @@ module.exports = {
         port: 80
     },
 
-    mysql: {
+    database: {
         host: 'localhost'
     }
 
