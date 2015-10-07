@@ -23,4 +23,6 @@ var config = require('env-configs');
 console.log(config.database.host);
 `
 
-
+License
+-------
+MIT
