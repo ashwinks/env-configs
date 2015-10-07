@@ -17,6 +17,7 @@ Config files are loaded depending on the `NODE_ENV` environment variable and def
 This file will be loaded by default, then your environment specific config file will be loaded *overriding* attributes in the default config file. Environment configration files need to follow the `config.{environment_name}.js` naming convention. 
 
 So for instance, if you need different database settings for your local environment, you would create a `config.local.js` file and override the db settings. Please see the config files in this module for an example.
+
 ```
 var config = require('env-configs');
 console.log(config.database.host);
@@ -34,7 +35,8 @@ var env = process.env.NODE_ENV || 'production';
 ```
 
 Next, determine where are config files are:
-```var configPath = process.env.NODE_CONFIG_PATH;
+```
+var configPath = process.env.NODE_CONFIG_PATH;
 if (!configPath){
     configPath = path.resolve(__dirname).split('/node_modules')[0];
 }
