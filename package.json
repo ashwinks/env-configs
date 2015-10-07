@@ -1,14 +1,14 @@
 {
-  "name": "simple-config",
+  "name": "env-configs",
   "version": "0.1.0",
-  "description": "Simple NodeJS configuration loader with support for multiple development environments",
-  "main": "index.js",
+  "description": "Simple NodeJS environment dependented configuration loader",
+  "main": "./lib/config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashwinks/simple-config.git"
+    "url": "https://github.com/ashwinks/env-configs.git"
   },
   "keywords": [
     "config",
@@ -22,7 +22,7 @@
   "author": "Ashwin Surajbali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ashwinks/simple-config/issues"
+    "url": "https://github.com/ashwinks/env-configs/issues"
   },
-  "homepage": "https://github.com/ashwinks/simple-config"
+  "homepage": "https://github.com/ashwinks/env-configs"
 }
