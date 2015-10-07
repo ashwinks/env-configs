@@ -3,7 +3,7 @@
 Introduction
 ------------
 
-This module is a VERY lightweight Node hierarchial configuration loader. I apologize for the less than ideal name - finding an available NPM modules name is like trying to find an available gmail address. You create a set of configuration files, one per environment and this module will do the rest. You do not need to copy the entire schema for every config file, it will merge and override. Your environment specific config files should only contain attributes to be overriden in the default config. 
+This module is a VERY lightweight node environment dependent configuration loader. I apologize for the less than ideal name - finding an available NPM modules name is like trying to find an available gmail address. You create a set of configuration files, one per environment and this module will do the rest. You do not need to copy the entire schema for every config file, it will merge and override. Your environment specific config files should only contain attributes to be overriden in the default config. 
 
 Installation
 ------------
