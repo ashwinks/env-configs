@@ -12,12 +12,9 @@
   },
   "keywords": [
     "config",
-    "multiple",
     "development",
     "environment",
-    "configuration",
-    "development",
-    "environment"
+    "configuration"
   ],
   "author": "Ashwin Surajbali",
   "license": "MIT",
